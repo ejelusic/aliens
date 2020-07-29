@@ -32,7 +32,7 @@ class AlienInvasion:
         self.play_button = Button(self, "IGRAJ")
 
     def run_game(self):
-        """Start the main loop for the game."""
+        """Start the main loop for the game. """
         while True:
             self._check_events()
             if self.stats.game_active:
